@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height: 55vh;
+}
+
+.box-uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 20rem;
+    height: 20rem;
+}
+
+.box-uno h1 {
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 10rem;
+}
+
+.box-dos {
+    width: min-content;
+}
+.box-dos h2 {
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.5rem;
+    width: max-content;
+}
+
+.box-dos p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .home {
+        padding: 20px;
+        flex-direction: column;
+    }
+}
